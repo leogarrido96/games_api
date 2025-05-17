@@ -1,5 +1,42 @@
 # Games API
 
+This project is a RESTful API for managing a collection of games. It allows users to create, read, update, and delete game records. The API is designed for easy integration with frontend applications or other services.
+
+## Features
+
+- List all games
+- Retrieve details of a specific game
+- Add new games
+- Update existing games
+- Delete games
+
+## Technologies Used
+
+- Python
+- FastAPI (or Flask/Django REST Framework, specify your framework)
+- SQLAlchemy (if using a database)
+- SQLite/PostgreSQL/MySQL (specify your database)
+- Docker (optional)
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/games_api.git
+    cd games_api
+    ```
+
+2. Create a virtual environment and activate it:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 4. Configure environment variables (if needed). You can copy the example file and edit it:
     ```bash
     cp .env.example .env
