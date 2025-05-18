@@ -5,6 +5,7 @@ from core.permissions import GlobalDefaultPermission
 from developers.models import Developer
 from developers.serializers import DeveloperSerializer
 
+
 class DeveloperListView(generics.ListCreateAPIView):
     """
     API view to retrieve and create developers.

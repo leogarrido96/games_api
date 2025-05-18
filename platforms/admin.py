@@ -12,4 +12,3 @@ class PlatformAdmin(admin.ModelAdmin):
     list_filter = ('created_at', 'updated_at')
     search_fields = ('name', 'manufacturer', 'release_year')
     ordering = ('id',)
-    
