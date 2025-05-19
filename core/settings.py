@@ -1,14 +1,12 @@
 from pathlib import Path
 import os
 
-from dotenv import load_dotenv
+from utils.config import DJANGO_SECRET_KEY
 
-
-load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
+SECRET_KEY = DJANGO_SECRET_KEY
 
 DEBUG = True
 

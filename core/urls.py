@@ -10,5 +10,6 @@ urlpatterns = [
     path('api/v1/', include('games.urls')),
     path('api/v1/', include('genres.urls')),
     path('api/v1/', include('platforms.urls')),
+    path('api/v1/', include('reviews.urls')),
 
 ]
