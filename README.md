@@ -13,10 +13,9 @@ This project is a RESTful API for managing a collection of games. It allows user
 ## Technologies Used
 
 - Python
-- FastAPI (or Flask/Django REST Framework, specify your framework)
-- SQLAlchemy (if using a database)
-- SQLite/PostgreSQL/MySQL (specify your database)
-- Docker (optional)
+- Django REST Framework
+- /PostgreSQL/ (Next step)
+- Docker (Next step)
 
 ## Installation
 
