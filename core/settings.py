@@ -1,5 +1,5 @@
 from pathlib import Path
-import os
+from datetime import timedelta
 
 from utils.config import DJANGO_SECRET_KEY
 
@@ -125,4 +125,10 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     )
 
+}
+
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(hours=3),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
 }
